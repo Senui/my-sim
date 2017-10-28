@@ -21,7 +21,7 @@ inline int Simulate(int argc, const char** argv) {
   Scheduler<> scheduler;
   scheduler.Simulate(1);
   
-  std::cout << "Simulation completed successfully!" << std::endl;
+  std::cout << "Simulation completed successfully!" << std::endl
   return 0;
 }
 
