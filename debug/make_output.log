@@ -1,0 +1,11 @@
+Scanning dependencies of target my-sim-objectlib
+[ 16%] Building CXX object CMakeFiles/my-sim-objectlib.dir/src/my-sim.cc.o
+In file included from /Users/travis/my-sim/src/my-sim.cc:1:
+/Users/travis/my-sim/src/my-sim.h:24:65: error: expected ';' after expression
+  std::cout << "Simulation completed successfully!" << std::endl
+                                                                ^
+                                                                ;
+1 error generated.
+make[2]: *** [CMakeFiles/my-sim-objectlib.dir/src/my-sim.cc.o] Error 1
+make[1]: *** [CMakeFiles/my-sim-objectlib.dir/all] Error 2
+make: *** [all] Error 2
